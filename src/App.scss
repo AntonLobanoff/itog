@@ -1,0 +1,156 @@
+.wrap {
+  width: 100vh;
+  height: 100%;
+  left: 0;
+  top: 0;
+}
+.picture {
+  width: 1440px;
+  height: 427px;
+  background-image: url("src/Pictures/Rectangle 580.png");
+
+  position: relative;
+  margin-top: -8px;
+  margin-bottom: 35px;
+}
+.picture_wrap {
+  width: 222px;
+  height: 63px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.slogan {
+  width: 350px;
+  height: 30px;
+  font-weight: 400px;
+  font-size: 24px;
+  color: #fafdfe;
+  line-height: 30px;
+  margin-top: 0;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.btn_wrap {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+.first-word {
+  color: #0e53b4;
+  font-size: 42px;
+  line-height: 63px;
+}
+.second-word {
+  color: #fafdfe;
+  font-size: 42px;
+  line-height: 63px;
+}
+
+.wrap_content {
+  display: grid;
+  grid-template-columns: 469px 700px;
+
+  padding-left: 10px;
+  align-self: baseline;
+}
+.content_about {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 125%;
+}
+.content_scope {
+  margin: 0;
+  padding: 0;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 45px;
+}
+
+h2 {
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 35px;
+  color: #000000;
+  margin-top: 4px;
+}
+
+.about {
+  color: #000000;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 45px;
+  display: grid;
+  grid-template-rows: min-content;
+  padding-left: 110px;
+}
+.about_content {
+  display: grid;
+  grid-template-rows: min-content;
+  gap: 50px;
+  padding-left: 60px;
+}
+
+.our_contacts {
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 45px;
+}
+.contacts {
+  display: grid;
+  grid-template-columns: 469px 700px;
+
+  padding-left: 10px;
+  align-self: baseline;
+}
+.contacts_content {
+  display: grid;
+  grid-template-rows: min-content;
+  gap: 50px;
+  padding-left: 60px;
+}
+.contacts_icons {
+  display: grid;
+  grid-template-columns: 180px 180px 180px;
+  gap: 20px;
+}
+.tel,
+.inst,
+.mail {
+  border: none;
+  background: none;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+}
+.icon_style {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.tel_number,
+.inst_number,
+.mail_number {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #000000;
+}
+.content_wrapper {
+  display: grid;
+  grid-template-rows: min-content;
+  gap: 50px;
+}
+.contacts_title {
+  display: grid;
+  grid-template-rows: min-content;
+  padding-left: 110px;
+}
